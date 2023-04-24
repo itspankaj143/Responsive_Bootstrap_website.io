@@ -1,0 +1,126 @@
+a {
+  text-decoration: none;
+}
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#myid {
+  margin: 0 20px;
+}
+.section h2.section-head {
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section h2.section-head::after {
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+#header {
+  color: #fff;
+  background-color: #e74c3c;
+}
+#logo {
+  font-size: 1.9rem;
+  margin: 5px 150px;
+}
+#menu {
+  list-style: none;
+  margin: 0 220px;
+  padding: 0;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: #fff;
+  padding: 15px 10px;
+  display: block;
+}
+#menu li a:hover {
+  background: #c0392b;
+}
+#banner {
+  background-image: url(./photo-1448697138198-9aa6d0d84bf4.avif);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  /* border: 2px solid red; */
+}
+.banner-title {
+  padding-top: 5rem;
+}
+.banner-title h1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+.banner-title p.lead {
+  color: #fff;
+  background: rgba(231, 76, 60, 0.7);
+  padding: 10px;
+}
+.service-box {
+  text-align: center;
+}
+.service-box i.fa {
+  color: #e74c3c;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+#testimonials {
+  color: #fff;
+  background-image: url(./photo-1517777298614-cb6eefb19fad.avif);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+  /* border: 2px solid red; */
+}
+#testimonials::before {
+  background: rgba(52, 73, 94, 0.4);
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.testimonial img {
+  border-radius: 50%;
+}
+.news-post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.news-post h3 {
+  font-size: 1.35rem;
+}
+.news-post h3 a {
+  color: #e74c3c;
+}
+.post-date {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.post-date::before {
+  content: " \f073 ";
+  font-family: FontAwesome;
+  padding-right: 5px;
+}
+a.readmore {
+  font-size: 14px;
+  color: #e74c3c;
+}
+a.readmore::after {
+  content: "\f101";
+  font-family: FontAwesome;
+  padding-left: 5px;
+}
